@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="./Multimedia/favicon.ico">
+    <title>POKÉDEX</title>
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div class="item1">
+            <img class="img_pkdx"src="./Multimedia/img_pkdx.png" alt="imagen palabra pokedex letra estilo pokemon">
+        </div>
+        <div class="item2">
+            <div id="container_pkm" class="pokemon-container"></div>
+        </div>
+        <div class="item3">
+            <nav class="pagination-container">
+                <li id="previous" class="pagination-btn">Anterior</li>
+                <li id="next" class="pagination-btn">Siguiente</li>
+            </nav>
+            <div id="spinner">Cargando...</div>
+        </div>
+        <div class="item4">
+            <div class="table-container">
+                <table class="tbl_pkm">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripcion</th>
+                        <th>Tipo</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script  type="text/javascript" src="./JS/functions.js"></script>
+</body>
+</html>
